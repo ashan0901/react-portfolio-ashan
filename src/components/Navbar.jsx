@@ -15,7 +15,7 @@ const Navbar = () => {
           to="about"
           smooth={true}
           duration={500}
-          className="text-gray-300 hover:text-white cursor-pointer"
+          className="text-gray-300 hover:text-purple-800 cursor-pointer"
         >
           About Me
         </ScrollLink>
@@ -23,7 +23,7 @@ const Navbar = () => {
           to="technologies"
           smooth={true}
           duration={500}
-          className="text-gray-300 hover:text-white cursor-pointer"
+          className="text-gray-300 hover:text-purple-800 cursor-pointer"
         >
           Technologies
         </ScrollLink>
@@ -31,7 +31,7 @@ const Navbar = () => {
           to="projects"
           smooth={true}
           duration={500}
-          className="text-gray-300 hover:text-white cursor-pointer"
+          className="text-gray-300 hover:text-purple-800 cursor-pointer"
         >
           Projects
         </ScrollLink>
@@ -39,7 +39,7 @@ const Navbar = () => {
           to="contact"
           smooth={true}
           duration={500}
-          className="text-gray-300 hover:text-white cursor-pointer"
+          className="text-gray-300 hover:text-purple-800 cursor-pointer"
         >
           Contact
         </ScrollLink>
