@@ -52,7 +52,7 @@ const Hero = () => {
               className="object-cover rounded-lg shadow-2xl"
               src={profilePic}
               alt="profile pic"
-              style={{ width: "17cm", height: "17cm" }}
+              style={{ width: "13cm", height: "13cm" }}
             />
           </div>
         </div>
