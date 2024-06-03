@@ -1,3 +1,4 @@
+import project0 from "../assets/projects/project-0.jpeg";
 import project1 from "../assets/projects/project-1.jpeg";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
@@ -26,11 +27,20 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
+    title: "Safe Route Pro",
+    image: project0,
+    description:
+      "An application that predicts appropriate driving speeds for different weather and road conditions, while incorporating live weather updates and location tracking, is crucial for promoting road safety using AI. With this technology, drivers can make informed decisions based on real-time data, reducing the risk of accidents.",
+    technologies: ["React", "Flask", "Python", "Machine Learning"],
+    link: "",
+  },
+  {
     title: "MoneyMate - Personal Expense Tracker",
     image: project1,
     description:
       "A fully functional expense tracking website with features like add expenses, show past expenses and income visually, and user authentication.",
     technologies: ["React", "SpringBoot", "MongoDB", "Node.js", "Java"],
+    link: "www.moneymate.com",
   },
   {
     title: "Food Ordering System - POSS",

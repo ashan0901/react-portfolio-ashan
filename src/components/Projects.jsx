@@ -1,5 +1,5 @@
 import { PROJECTS } from "../constants";
-import { motion } from "framer-motion";
+import { color, motion } from "framer-motion";
 
 const Projects = () => {
   return (
@@ -46,6 +46,12 @@ const Projects = () => {
                   {tech}
                 </span>
               ))}
+              {/* <div>
+                <br />
+                <a href="www.github.com" target="_blank" className="mt-4">
+                  <button>GitHub</button>
+                </a>
+              </div> */}
             </motion.div>
           </div>
         ))}
