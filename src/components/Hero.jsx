@@ -42,13 +42,21 @@ const Hero = () => {
               {HERO_CONTENT}
               <div className="w-full flex justify-center text-center mt-4 lg:justify-start lg:text-left">
                 <span className="inline-flex items-center rounded-md bg-blue-50 px-4 py-2 text-base font-medium text-black ring-1 ring-inset ring-green-500/10">
-                  <a href="/Ashan.pdf" download className="no-underline">
+                  <a
+                    href="/Ashan Fernando - CV.pdf"
+                    download
+                    className="no-underline"
+                  >
                     Download CV
                   </a>
                 </span>
 
                 <span className="inline-flex items-center rounded-md bg-blue-50 px-4 py-2 ml-2 text-base font-medium text-black ring-1 ring-inset ring-green-500/10">
-                  <a href="/Ashan-ATS.pdf" download className="no-underline">
+                  <a
+                    href="/Ashan Fernando - CV - ATS.pdf"
+                    download
+                    className="no-underline"
+                  >
                     Download CV (ATS Format)
                   </a>
                 </span>
