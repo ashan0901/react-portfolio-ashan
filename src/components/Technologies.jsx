@@ -12,6 +12,8 @@ import { FaCss3Alt } from "react-icons/fa6";
 import { IoLogoJavascript } from "react-icons/io5";
 import { SiJupyter } from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa";
+import { SiPhp } from "react-icons/si";
+import { SiXampp } from "react-icons/si";
 
 const iconVariants = (duration) => ({
   initial: { y: -10 },
@@ -154,6 +156,24 @@ const Technologies = () => {
           className="rounded-2xl border-4 border-neutral-800 p-8"
         >
           <FaGitAlt className="text-7xl text-orange-700" />
+        </motion.div>
+
+        <motion.div
+          variants={iconVariants(2.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-8"
+        >
+          <SiPhp className="text-7xl text-blue-500" />
+        </motion.div>
+
+        <motion.div
+          variants={iconVariants(2.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-8"
+        >
+          <SiXampp className="text-7xl text-orange-500" />
         </motion.div>
       </motion.div>
     </div>
