@@ -4,9 +4,9 @@ import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png";
 
-export const HERO_CONTENT = `Hello! I'm Ashan Fernando, a passionate and driven Computer Science undergraduate with a keen interest in software development, data science, and artificial intelligence. I am currently pursuing my Bachelor's degree in Computer Science at University of Kelaniya Srilanka, where I have been honing my skills in programming, problem-solving, and project management. `;
+export const HERO_CONTENT = `Hello! I'm Ashan Fernando, a passionate and driven Computer Science undergraduate with a keen interest in software development, data science, and artificial intelligence. I am currently pursuing my Bachelor's degree in Computer Science at University of Kelaniya Srilanka, where I have been honing my skills in programming, problem-solving, and project management. \n`;
 
-export const ABOUT_TEXT = `Currently, I am pursuing a BSc Honours degree in Computer Science at University of Kelaniya Srilanka. My coursework and projects have provided me with a strong understanding of various aspects of computer science, including data structures, algorithms, and software development. I have also worked on projects that have involved working with various technologies, including JavaScript, React.js, Node.js, and MongoDB.My enthusiasm for computer science drives me to solve complex problems and create innovative solutions. I am always looking for new opportunities to learn and grow.`;
+export const ABOUT_TEXT = `         Currently, I am pursuing a BSc Honours degree in Computer Science at University of Kelaniya Srilanka. My coursework and projects have provided me with a strong understanding of various aspects of computer science, including data structures, algorithms, and software development, Machine Learning and Artifitial Inteligent. I have also worked on projects that have involved working with various technologies, including JavaScript, React.js, Node.js, and MongoDB, Python ,Jupyter Notebook .My enthusiasm for computer science drives me to solve complex problems and create innovative solutions. I am always looking for new opportunities to learn and grow.`;
 
 export const EXPERIENCES = [
   {

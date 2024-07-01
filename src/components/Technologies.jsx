@@ -6,6 +6,12 @@ import { FaJava } from "react-icons/fa";
 import { SiSpringboot } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
 import { animate, motion } from "framer-motion";
+import { SiTensorflow } from "react-icons/si";
+import { FaHtml5 } from "react-icons/fa";
+import { FaCss3Alt } from "react-icons/fa6";
+import { IoLogoJavascript } from "react-icons/io5";
+import { SiJupyter } from "react-icons/si";
+import { FaGitAlt } from "react-icons/fa";
 
 const iconVariants = (duration) => ({
   initial: { y: -10 },
@@ -54,6 +60,16 @@ const Technologies = () => {
         >
           <FaNodeJs className="text-7xl text-green-500" />
         </motion.div>
+
+        <motion.div
+          variants={iconVariants(2.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-8"
+        >
+          <SiTensorflow className="text-7xl text-orange-500" />
+        </motion.div>
+
         <motion.div
           variants={iconVariants(1.5)}
           initial="initial"
@@ -95,6 +111,49 @@ const Technologies = () => {
           className="rounded-2xl border-4 border-neutral-800 p-8"
         >
           <SiMysql className="text-7xl text-blue-800" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(1.0)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-8"
+        >
+          <FaHtml5 className="text-7xl text-orange-800" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(1.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-8"
+        >
+          <FaCss3Alt className="text-7xl text-blue-800" />
+        </motion.div>
+
+        <motion.div
+          variants={iconVariants(2.0)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-8"
+        >
+          <IoLogoJavascript className="text-7xl text-yellow-400" />
+        </motion.div>
+
+        <motion.div
+          variants={iconVariants(2.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-8"
+        >
+          <SiJupyter className="text-7xl text-orange-500" />
+        </motion.div>
+
+        <motion.div
+          variants={iconVariants(2.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-8"
+        >
+          <FaGitAlt className="text-7xl text-orange-700" />
         </motion.div>
       </motion.div>
     </div>

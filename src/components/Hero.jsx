@@ -40,6 +40,13 @@ const Hero = () => {
               className="my-2 max-w-xl py-6 font-light tracking-tighter"
             >
               {HERO_CONTENT}
+              <div className="w-full flex justify-center text-center mt-4 lg:justify-start lg:text-left">
+                <span className="inline-flex items-center rounded-md bg-blue-50 px-4 py-2 text-base font-medium text-black ring-1 ring-inset ring-green-500/10">
+                  <a href="/Ashan.pdf" download className="no-underline">
+                    Download CV
+                  </a>
+                </span>
+              </div>
             </motion.p>
           </div>
         </div>
