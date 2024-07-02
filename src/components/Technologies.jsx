@@ -14,6 +14,8 @@ import { SiJupyter } from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa";
 import { SiPhp } from "react-icons/si";
 import { SiXampp } from "react-icons/si";
+import { RiNextjsFill } from "react-icons/ri";
+import { SiTypescript } from "react-icons/si";
 
 const iconVariants = (duration) => ({
   initial: { y: -10 },
@@ -61,6 +63,15 @@ const Technologies = () => {
           className="rounded-2xl border-4 border-neutral-800 p-8"
         >
           <FaNodeJs className="text-7xl text-green-500" />
+        </motion.div>
+
+        <motion.div
+          variants={iconVariants(2.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-8"
+        >
+          <RiNextjsFill className="text-7xl text-white-900" />
         </motion.div>
 
         <motion.div
@@ -138,6 +149,15 @@ const Technologies = () => {
           className="rounded-2xl border-4 border-neutral-800 p-8"
         >
           <IoLogoJavascript className="text-7xl text-yellow-400" />
+        </motion.div>
+
+        <motion.div
+          variants={iconVariants(2.0)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-8"
+        >
+          <SiTypescript className="text-7xl text-blue-600" />
         </motion.div>
 
         <motion.div
