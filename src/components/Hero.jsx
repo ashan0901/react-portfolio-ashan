@@ -53,7 +53,7 @@ const Hero = () => {
 
                 <span className="inline-flex items-center rounded-md bg-blue-50 px-4 py-2 ml-2 text-base font-medium text-black ring-1 ring-inset ring-green-500/10">
                   <a
-                    href="/Ashan Fernando - CV - ATS.pdf"
+                    href="/Ashan Fernando - CV -ATS.pdf"
                     download
                     className="no-underline"
                   >
