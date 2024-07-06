@@ -54,7 +54,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-8"
         >
-          <RiReactjsLine className="text-7xl text-cyan-400" />
+          <RiReactjsLine className="text-6xl text-cyan-400" />
         </motion.div>
         <motion.div
           variants={iconVariants(2)}
@@ -62,7 +62,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-8"
         >
-          <FaNodeJs className="text-7xl text-green-500" />
+          <FaNodeJs className="text-6xl text-green-500" />
         </motion.div>
 
         <motion.div
@@ -71,7 +71,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-8"
         >
-          <RiNextjsFill className="text-7xl text-white-900" />
+          <RiNextjsFill className="text-6xl text-white-900" />
         </motion.div>
 
         <motion.div
@@ -80,7 +80,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-8"
         >
-          <SiTensorflow className="text-7xl text-orange-500" />
+          <SiTensorflow className="text-6xl text-orange-500" />
         </motion.div>
 
         <motion.div
@@ -89,7 +89,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-8"
         >
-          <FaJava className="text-7xl text-orange-400" />
+          <FaJava className="text-6xl text-orange-400" />
         </motion.div>
 
         <motion.div
@@ -98,7 +98,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-8"
         >
-          <FaPython className="text-7xl text-blue-400" />
+          <FaPython className="text-6xl text-blue-400" />
         </motion.div>
         <motion.div
           variants={iconVariants(2.5)}
@@ -106,7 +106,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-8"
         >
-          <BiLogoMongodb className="text-7xl text-green-500" />
+          <BiLogoMongodb className="text-6xl text-green-500" />
         </motion.div>
 
         <motion.div
@@ -115,7 +115,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-8"
         >
-          <SiSpringboot className="text-7xl text-green-600" />
+          <SiSpringboot className="text-6xl text-green-600" />
         </motion.div>
         <motion.div
           variants={iconVariants(1.5)}
@@ -123,7 +123,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-8"
         >
-          <SiMysql className="text-7xl text-blue-800" />
+          <SiMysql className="text-6xl text-blue-800" />
         </motion.div>
         <motion.div
           variants={iconVariants(1.0)}
@@ -131,7 +131,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-8"
         >
-          <FaHtml5 className="text-7xl text-orange-800" />
+          <FaHtml5 className="text-6xl text-orange-800" />
         </motion.div>
         <motion.div
           variants={iconVariants(1.5)}
@@ -139,7 +139,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-8"
         >
-          <FaCss3Alt className="text-7xl text-blue-800" />
+          <FaCss3Alt className="text-6xl text-blue-800" />
         </motion.div>
 
         <motion.div
@@ -148,7 +148,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-8"
         >
-          <IoLogoJavascript className="text-7xl text-yellow-400" />
+          <IoLogoJavascript className="text-6xl text-yellow-400" />
         </motion.div>
 
         <motion.div
@@ -157,7 +157,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-8"
         >
-          <SiTypescript className="text-7xl text-blue-600" />
+          <SiTypescript className="text-6xl text-blue-600" />
         </motion.div>
 
         <motion.div
@@ -166,7 +166,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-8"
         >
-          <SiJupyter className="text-7xl text-orange-500" />
+          <SiJupyter className="text-6xl text-orange-500" />
         </motion.div>
 
         <motion.div
@@ -175,7 +175,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-8"
         >
-          <FaGitAlt className="text-7xl text-orange-700" />
+          <FaGitAlt className="text-6xl text-orange-700" />
         </motion.div>
 
         <motion.div
@@ -184,7 +184,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-8"
         >
-          <SiPhp className="text-7xl text-blue-500" />
+          <SiPhp className="text-6xl text-blue-500" />
         </motion.div>
 
         <motion.div
@@ -193,7 +193,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-8"
         >
-          <SiXampp className="text-7xl text-orange-500" />
+          <SiXampp className="text-6xl text-orange-500" />
         </motion.div>
       </motion.div>
     </div>

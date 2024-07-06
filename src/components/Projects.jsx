@@ -38,6 +38,7 @@ const Projects = () => {
             >
               <h6 className="mb-2 font-semibold">{project.title}</h6>
               <p className="mb-4 text-neutral-400">{project.description}</p>
+
               {project.technologies.map((tech, index) => (
                 <span
                   key={index}
@@ -46,10 +47,19 @@ const Projects = () => {
                   {tech}
                 </span>
               ))}
+              {project.link && (
+                <a href={project.link} target="_blank" className="mt-4">
+                  <button className="mr-2 rounded bg-neutral-900 px-6 py-1 text-sm font-medium text-white hover:bg-neutral-700">
+                    GitHub Link
+                  </button>
+                </a>
+              )}
               {/* <div>
                 <br />
                 <a href="www.github.com" target="_blank" className="mt-4">
-                  <button>GitHub</button>
+                  <button className="mr-2 rounded bg-neutral-900 px-6 py-1 text-sm font-medium text-white hover:bg-neutral-700">
+                    GitHub
+                  </button>
                 </a>
               </div> */}
             </motion.div>
