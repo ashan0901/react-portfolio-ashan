@@ -49,7 +49,7 @@ const Projects = () => {
               ))}
               {project.link && (
                 <a href={project.link} target="_blank" className="mt-4">
-                  <button className="mr-2 rounded bg-neutral-900 px-6 py-1 text-sm font-medium text-white hover:bg-neutral-700">
+                  <button className="mr-2 mt-4 rounded bg-neutral-900 px-6 py-1 text-sm font-medium text-white hover:bg-neutral-700">
                     GitHub Link
                   </button>
                 </a>
