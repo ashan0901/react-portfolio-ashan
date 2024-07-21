@@ -16,6 +16,10 @@ import { SiPhp } from "react-icons/si";
 import { SiXampp } from "react-icons/si";
 import { RiNextjsFill } from "react-icons/ri";
 import { SiTypescript } from "react-icons/si";
+import { IoLogoFirebase } from "react-icons/io5";
+import { FaAngular } from "react-icons/fa";
+import { FaBootstrap } from "react-icons/fa";
+import { RiTailwindCssFill } from "react-icons/ri";
 
 const iconVariants = (duration) => ({
   initial: { y: -10 },
@@ -118,6 +122,30 @@ const Technologies = () => {
           <SiSpringboot className="text-6xl text-green-600" />
         </motion.div>
         <motion.div
+          variants={iconVariants(2)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-8"
+        >
+          <FaAngular className="text-6xl text-red-600" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(2)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-8"
+        >
+          <FaBootstrap className="text-6xl text-blue-600" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(2.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-8"
+        >
+          <IoLogoFirebase className="text-6xl text-orange-500" />
+        </motion.div>
+        <motion.div
           variants={iconVariants(1.5)}
           initial="initial"
           animate="animate"
@@ -140,6 +168,14 @@ const Technologies = () => {
           className="rounded-2xl border-4 border-neutral-800 p-8"
         >
           <FaCss3Alt className="text-6xl text-blue-800" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(1.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-8"
+        >
+          <RiTailwindCssFill className="text-6xl text-blue-400" />
         </motion.div>
 
         <motion.div
