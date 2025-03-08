@@ -10,7 +10,26 @@ export const HERO_CONTENT = `Hello! I'm Ashan Fernando, a passionate and driven 
 
 export const ABOUT_TEXT = `         Currently, I am pursuing a BSc Honours degree in Computer Science at University of Kelaniya Srilanka. My coursework and projects have provided me with a strong understanding of various aspects of computer science, including data structures, algorithms, and software development, Machine Learning and Artifitial Inteligent. I have also worked on projects that have involved working with various technologies, including JavaScript, React.js, Node.js, and MongoDB, Python ,Jupyter Notebook .My enthusiasm for computer science drives me to solve complex problems and create innovative solutions. I am always looking for new opportunities to learn and grow.`;
 
-export const EXPERIENCES = [];
+export const EXPERIENCES = [
+  {
+    company: "Panaceate (Pvt) Ltd",
+    role: "Software Engineer Intern",
+    year: "2024 - Present",
+    description: "",
+    technologies: [
+      "Angular NX",
+      "NestJS",
+      "AWS",
+      "PostgreSQL",
+      "Azure DevOps",
+      "Git",
+      "PL/SQL",
+      "Sequelize",
+      "AG Grid",
+      "Tailwind CSS",
+    ],
+  },
+];
 
 export const PROJECTS = [
   {
